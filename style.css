@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #fffdfd;
+  padding: 20px;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;     
+  background-color: #f0eeee ;              
+}
+
+.logo {
+  width: 200px;             
+}
+
+
+.btn-whatsapp {
+  display: inline-block;
+  padding: 14px 22px;
+  background: #25d366;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.btn-whatsapp:hover {
+  background: #1ebe5d;
+}
+
+
+.btn-instagram {
+  display: inline-block;
+  padding: 14px 22px;
+  background: #FF0069;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.btn-instagram:hover {
+  background: #f53f8a;
+}
+
+
+.btn-gmail {
+  display: inline-block;
+  padding: 14px 22px;
+  background: #4285F4;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.btn-gmail:hover {
+  background: #7ea9ef;
+}
+
+
+.botoes-fixos {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 999;
+}
+
+.btn-fixo {
+  display: inline-block;
+  padding: 14px 22px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+
+.btn-fixo.whatsapp {
+  background: #ffffff;
+}
+
+.btn-fixo.whatsapp:hover {
+  background: #a8a8a8;
+}
+
+.btn-fixo.instagram {
+  background: #ffffff;
+}
+
+.btn-fixo.instagram:hover {
+  background: #a8a8a8;
+}
+
+.btn-fixo.gmail {
+  background: #ffffff;
+}
+
+.btn-fixo.gmail:hover {
+  background: #a8a8a8;
+}
+
+
+.btn-fixo img {
+  width: 35px;
+  height: 35px;
+}
+
+
+section, footer {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+
+section h2,
+section h3 {
+  margin-bottom: 15px;
+}
+
+section ul,
+section p {
+  margin-bottom: 20px;
+}
+
+
+.servico-bloco {
+  margin-bottom: 30px;
+}
+
+
+#observacoes {
+  background: #f5f5f5;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+
