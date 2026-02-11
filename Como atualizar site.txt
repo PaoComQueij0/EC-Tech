@@ -1,0 +1,7 @@
+1- Fazer as alterações no código
+2- Salvar
+3- Abrir terminal no vscode com ctrl " (ctrl aspas)
+4- Rodar git add .
+5- Rodar git commit -m "nota sobre atualização"
+6- Rodar git push
+7- Se tudo der certo, o site será atualizado em até 5 minutos
