@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
 
-  <!-- Google tag (gtag.js) -->
+  <!-- Google tag base (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17941151842"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -11,6 +11,25 @@
 
   gtag('config', 'AW-17941151842');
 </script>
+
+<!-- Snippet que registra o evento de clique no botão do whatsapp-->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17941151842/kU9uCJmA2vcbEOKAgetC',
+      'value': 1.0,
+      'currency': 'BRL',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -101,7 +120,7 @@
   <p>WhatsApp: 12 99145-9977</p>
   <p>Instagram: ec_tech04</p>
   <p>Email: ectech.informatica04@gmail.com</p>
-  <h2>Ou entre em contato clicando nos botões abaixo:</h2>
+  <h2>Ou entre em contato através dos botões abaixo:</h2>
 
     <!-- <a id="wpp" href="https://wa.me/5512991459977" class="btn-whatsapp" target="_blank">
    WhatsApp
@@ -111,7 +130,8 @@
         href="https://wa.me/5512991459977"
         class="btn-fixo whatsapp"
         target="_blank"
-        title="WhatsApp">
+        title="WhatsApp"
+        onclick="return gtag_report_conversion('https://wa.me/5512991459977');">
         <img src="imagens/whatsapp_logo.png" alt="logo_whatsapp">
      </a>
 
@@ -159,7 +179,8 @@
   <a href="https://wa.me/5512991459977"
      class="btn-fixo whatsapp"
      target="_blank"
-     title="WhatsApp">
+     title="WhatsApp"
+     onclick="return gtag_report_conversion('https://wa.me/5512991459977');">
       <img src="imagens/whatsapp_logo.png" alt="logo_whatsapp">
   </a>
 
