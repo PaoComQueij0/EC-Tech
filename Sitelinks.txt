@@ -1,22 +1,22 @@
 sobre
-https://paocomqueij0.github.io/EC-Tech/#sobre
+https://ectech.site#sobre
 
 
 Soluções para Computadores e Notebooks
-https://paocomqueij0.github.io/EC-Tech/#Soluções%20para%20Computadores%20e%20Notebooks
+https://ectech.site#pcs_notebooks
 
 
 Soluções para Consoles de Videogame
-https://paocomqueij0.github.io/EC-Tech/#Soluções%20para%20Consoles%20de%20Videogame
+https://ectech.site#videogames
 
 
 Soluções para Redes
-https://paocomqueij0.github.io/EC-Tech/#Soluções%20para%20Redes
+https://ectech.site#redes
 
 
 como-funciona
-https://paocomqueij0.github.io/EC-Tech/#como-funciona
+https://ectech.site#como-funciona
 
 
 contato
-https://paocomqueij0.github.io/EC-Tech/#contato
+https://ectech.site#contato

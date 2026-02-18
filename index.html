@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Site EC Tech</title>
+   <link rel="stylesheet" href = "style.css">
+<!-- Google tag base (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17941151842"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
 
-  <!-- Google tag base (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17941151842"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-17941151842');
-</script>
+     gtag('config', 'AW-17941151842');
+  </script>
+<!-- Fim da tag Google-->
 
 <!-- Snippet que registra o evento de clique no botão do whatsapp-->
-<script>
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-17941151842/kU9uCJmA2vcbEOKAgetC',
-      'value': 1.0,
-      'currency': 'BRL',
-      'event_callback': callback
-  });
-  return false;
-}
-</script>
+   <script>
+   function gtag_report_conversion(url) {
+     var callback = function () {
+       if (typeof(url) != 'undefined') {
+         window.location = url;
+       }
+     };
+     gtag('event', 'conversion', {
+         'send_to': 'AW-17941151842/kU9uCJmA2vcbEOKAgetC',
+         'value': 1.0,
+         'currency': 'BRL',
+         'event_callback': callback
+     });
+     return false;
+   }
+   </script>
+<!-- Fim do snippet-->
 
+<!-- Configuração do SEO <-->
+   <title>EC Tech | Assistência Técnica Especializada</title>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site EC Tech</title>
-    <link rel="stylesheet" href = "style.css">
+   <meta name="description" content="Assistência técnica especializada em manutenção, instalação e suporte técnico profissional. EC Tech oferece soluções rápidas e confiáveis.">
+
+   <meta name="keywords" content="assistência técnica, manutenção, suporte técnico, conserto, EC Tech">
+
+   <meta name="author" content="EC Tech">
+
+   <meta property="og:title" content="EC Tech | Assistência Técnica">
+   <meta property="og:description" content="Soluções técnicas profissionais com qualidade e confiança.">
+   <meta property="og:type" content="website">
+   <meta property="og:url" content="https://ectech.site">
+<!-- Fim da configuração do SEO-->
+
 </head>
 
 <body>
@@ -49,7 +64,7 @@ function gtag_report_conversion(url) {
     </h3>
   </div>
 
-  <img src="imagens/logo_padrao.jpg" alt="Logo EC Tech" class="logo">
+  <img src="imagens/logo_redonda.png" alt="Logo EC Tech" class="logo">
 
 </div>
 
@@ -64,7 +79,7 @@ function gtag_report_conversion(url) {
   </section>
   
 
-  <section id="Soluções para Computadores e Notebooks">
+  <section id="pcs_notebooks">
     <h2>Soluções para Computadores e Notebooks:</h2>
       <ul>
         <li>Formatação completa com Windows e Pacote Office Ativados com ou sem backup</li>
@@ -76,7 +91,7 @@ function gtag_report_conversion(url) {
       </ul>
   </section>
 
-  <section id="Soluções para Consoles de Videogame">
+  <section id="videogames">
     <h2>Soluções para Consoles de Videogame</h2>
       <ul>
         <li>Manutenção preventiva e corretiva</li>
@@ -87,7 +102,7 @@ function gtag_report_conversion(url) {
       </ul>
     </section>
 
-    <section id="Soluções para Redes">
+    <section id="redes">
     <h2>Soluções para Redes</h2>
       <ul>
         <li>Instalação e configuração de roteadores wi-fi</li>
@@ -110,11 +125,6 @@ function gtag_report_conversion(url) {
 </section>
 
 
-<!-- <section class="wppqr">
-  <h2>Entre em contato pelo WhatsApp através do Qr Code</h2>
-  <img src="imagens/qr_code.jpg" alt="qr-code" class="qr-code">
-</section> -->
-
 <footer id="contato">
   <h2>Contato:</h2>
   <p>WhatsApp: 12 99145-9977</p>
@@ -122,9 +132,6 @@ function gtag_report_conversion(url) {
   <p>Email: ectech.informatica04@gmail.com</p>
   <h2>Ou entre em contato através dos botões abaixo:</h2>
 
-    <!-- <a id="wpp" href="https://wa.me/5512991459977" class="btn-whatsapp" target="_blank">
-   WhatsApp
-    </a> -->
 
      <a id='wpp'
         href="https://wa.me/5512991459977"
@@ -135,9 +142,7 @@ function gtag_report_conversion(url) {
         <img src="imagens/whatsapp_logo.png" alt="logo_whatsapp">
      </a>
 
-    <!-- <a id="insta" href="https://www.instagram.com/ec_tech04/" class="btn-instagram" target="_blank">
-   Instagram
-    </a> -->
+  
 
     <a id='insta'
        href="https://www.instagram.com/ec_tech04/"
@@ -147,10 +152,7 @@ function gtag_report_conversion(url) {
       <img src="imagens/instagram_logo.png" alt="logo_instagram">
     </a>
 
-   <!-- <a id="gmail" href="mailto:ectech.informatica04@gmail.com" class="btn-gmail" target="_blank">
-   Gmail
-    </a> -->
-
+ 
     <a id='gmail'
        href="mailto:ectech.informatica04@gmail.com"
        class="btn-fixo gmail"

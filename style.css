@@ -1,6 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #333;
+  /*background-color: #2800a9;*/
 }
 
 
@@ -18,7 +19,7 @@ body {
 }
 
 .logo {
-  width: 200px;             
+  width: 250px;             
 }
 
 
