@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    
+<title>FAQ EC Tech | Perguntas Frequentes</title>
+
+<meta name="description" content="Perguntas Frequentes EC Tech">
+
+<meta property="og:title" content="FAQ EC Tech">
+<meta property="og:description" content="Descubra as perguntas frequentes sobre a EC Tech">
+<meta property="og:url" content="https://ectech.site/faq.html">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="CSS/style.css">
+
+<meta name="author" content="EC Tech">
+<meta name="geo.region" content="BR-SP">
+<meta name="geo.placename" content="Taubaté">
+
+<meta property="og:type" content="website">
+<meta property="og:image" content="imagens/logo_1200_por_630.png">
+
+<!-- Google tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17941151842"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-17941151842');
+</script>
+
+<!-- Evento WhatsApp -->
+<script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-17941151842/kU9uCJmA2vcbEOKAgetC',
+        'value': 1.0,
+        'currency': 'BRL',
+        'event_callback': callback
+    });
+    return false;
+  }
+</script>
+
+<link rel="icon" type="image/png" href="imagens/favicon.png">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="container-header">
+
+    <div class="header-direita">
+      <img src="imagens/logo_bw.png" class="logo-header">
+      
+      <div class="textos-header">
+        <h1>EC Tech</h1>
+        <p class="localizacao">📍 Taubaté e região</p>
+      </div>
+    </div>
+
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+
+  </div>
+</header>
+
+<!-- <main class="pagina-interna">
+
+  <h1>Perguntas Frequentes</h1>
+  
+  <h2>Onde fica a EC Tech?</h2>
+  <p>R: Atualmente a EC Tech ainda não conta com ponto físico, os serviços são realizados na residencia do técnico que fica em Taubaté</p>
+
+  <h2>Se não tem ponto físico, como meu equipamento chega a EC Tech?</h2>
+  <p>R: Fica por conta do cliente escolher levar o equipamento até a residência do técnico ou que o técnico busque e depois leve o equipamento na residência do cliente</p>
+
+  <h2>Como funciona para retirar e levar o equipamento na residência do cliente?</h2>
+  <p>O técnico irá retirar o equipamento na resiência do cliente, realizar o serviço e levar o equipamento novamente até o cliente</p>
+
+  <h2>A retirada tem custo adicional?</h2>
+  <p>R: Sim, cobramos uma taxa proporcional à distância entre a residência do técnico e a do cliente, a taxa cobre retirada e entrega</p>
+
+  <h2>O técnico mantém contato constante com o cliente?</h2>
+  <p>R: Sim, o contato é constante durante todo o momento em que o equipamento está em posse do técnico, o cliente é informado com antecedência sobre se há defeito, qual(is) e qual(is) serviços são recomendados</p>
+
+</main> -->
+
+<main class="pagina-interna">
+
+  <h1>Perguntas Frequentes</h1>
+
+  <div class="faq-item">
+    <button class="faq-pergunta">Onde fica a EC Tech?</button>
+    <div class="faq-resposta">
+      <p>Atualmente não contamos com ponto físico. Os serviços são realizados na residência do técnico em Taubaté.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-pergunta">Como o equipamento chega até a EC Tech?</button>
+    <div class="faq-resposta">
+      <p>O cliente pode levar até o técnico ou solicitar retirada e entrega mediante taxa de deslocamento.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-pergunta">A retirada tem custo adicional?</button>
+    <div class="faq-resposta">
+      <p>Sim. É cobrada uma taxa proporcional à distância entre a residência do técnico e do cliente que cobre retirada e entrega.</p>
+    </div>
+  </div>
+
+   <div class="faq-item">
+    <button class="faq-pergunta">O técnico mantém contato constante com o cliente?</button>
+    <div class="faq-resposta">
+      <p> Sim, o contato é constante durante todo o momento em que o equipamento está em posse do técnico, o cliente é informado com antecedência sobre se há defeito, qual(is) e qual(is) serviços são recomendados</p>
+    </div>
+  </div>
+
+   <!-- <div class="faq-item">
+    <button class="faq-pergunta">PERGUNTA</button>
+    <div class="faq-resposta">
+      <p>RESPOSTA</p>
+    </div>
+  </div> -->
+
+</main>
+
+<footer class="footer">
+  <p>EC Tech - Serviços em Informática</p>
+</footer>   
+
+<script>
+  const perguntas = document.querySelectorAll(".faq-pergunta");
+
+  perguntas.forEach(pergunta => {
+    pergunta.addEventListener("click", () => {
+      const resposta = pergunta.nextElementSibling;
+      resposta.style.display = 
+        resposta.style.display === "block" ? "none" : "block";
+    });
+  });
+</script>
+</body>
