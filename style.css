@@ -297,3 +297,232 @@ header nav a {
   }
 
 }
+
+
+/* CSS DA PAGINA PROMOS.HTML */
+
+.promo-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px 20px;
+  font-family: Arial, sans-serif;
+  color: #000000;
+}
+
+.promo-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.promo-header h1 {
+  font-size: 32px;
+  color: #ffa600;
+}
+
+.promo-header h2 {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.promo-steps .steps {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(0, 0, 0, 0.20);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.step span {
+  background: #0b9804;
+  color: #000;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.promo-rewards {
+  display: flex;
+  gap: 15px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+.reward {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.reward.you {
+  background: linear-gradient(135deg, #004aad, #007bff);
+}
+
+.reward.friend {
+  background: linear-gradient(135deg, #0a7d3b, #28a745);
+}
+
+.reward .big {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.promo-rules ul {
+  list-style: none;
+  padding: 0;
+}
+
+.promo-rules li {
+  margin: 5px 0;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.services-list span {
+  background: rgba(255,255,255,0.08);
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.promo-cta {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.promo-cta a {
+  display: inline-block;
+  background: #2fff00;
+  color: #000;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* FIM */
+
+/* AJUSTE DO ESPAÇAMENTO DOS TEXTOS */
+
+.promo-extra {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.promo-rules {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.promo-rules ul {
+  margin-top: 10px;
+}
+
+.promo-rules li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.promo-services {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.services-list {
+  margin-top: 10px;
+  gap: 15px;
+}
+
+.promo-cta {
+  margin-top: 30px;
+}
+
+.promo-cta p {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.promo-container {
+  line-height: 1.5;
+}
+
+.promo-rules li::before {
+  margin-right: 8px;
+}
+/* FIM */
+
+
+/* AJUSTE DO MENU SUPERIOR NO MOBILE */
+
+/* BOTÃO */
+.menu-toggle {
+  display: none;
+  width: 100%;
+  padding: 12px;
+  background: #111;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  nav {
+    max-height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: max-height 0.4s ease;
+  }
+
+  nav.ativo {
+    max-height: 500px; /* espaço suficiente pro menu abrir */
+  }
+
+  nav a {
+    background: #111;
+    color: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  nav a.ativo {
+    background: #ccc;
+    color: #000;
+    font-weight: bold;
+  }
+}
+/* FIM */
+
+
+/* AJUSTE DE TEXTO DA PROMOÇÃO */
+
+.promo-services {
+
+  font-size: 19px;
+}
+/* FIM */
+
+

@@ -92,6 +92,7 @@
       </div>
     </div>
 
+    <button class="menu-toggle"> ☰ Menu de navegação </button>
     <nav>
       <a href="index.html" class="ativo">Início</a>
       <a href="servicos.html">Serviços</a>
@@ -99,7 +100,16 @@
       <a href="contato.html">Contato</a>
       <a href="faq.html">FAQ</a>
       <a href="review.html">Avaliações</a>
+      <a href="promos.html">Promoções</a>
     </nav>
+    
+     <!--Script de animação do botão-->
+    <script>
+        const toggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav');
+        toggle.addEventListener('click', () => {
+             nav.classList.toggle('ativo'); });
+    </script>
 
   </div>
 </header>
