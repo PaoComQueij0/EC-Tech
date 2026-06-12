@@ -523,6 +523,57 @@ header nav a {
 
   font-size: 19px;
 }
+
+/* Inserção da Logo do wpp após o texto dos botões */
+#logo_wpp_botao {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+/* Efeito ao passar o mouse sobre os botões */
+.btn:hover {
+    background-color: #888888; /* Cor ao passar o mouse */
+}
+
+/* Efeito ao passar o mouse sobre os botões do FAQ */
+.faq-pergunta:hover {
+    background-color: #888888; /* Cor ao passar o mouse */
+}
+
+/* Diminuir espaço em branco na seção serviços */
+.todos_servicos {
+    padding-top: 0;
+}
+
+/* Diminuir espaço em branco entre o header e a pagina principal */
+.pagina-interna {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#pc_png_img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+/* Efeito ao passar o mouse sobre os botões do Header */
+nav a {
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #888888;
+    transform: translateY(-2px);
+}
+
 /* FIM */
 
 
