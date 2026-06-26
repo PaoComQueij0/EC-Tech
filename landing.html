@@ -84,6 +84,11 @@
     --sombra: 0 4px 32px rgba(0,255,136,0.08);
   }
 
+  html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
   body {
     background-color: var(--fundo);
     color: var(--branco);
@@ -158,7 +163,7 @@
     position: absolute;
     top: 0; left: 50%;
     transform: translateX(-50%);
-    width: 600px;
+    width: min(600px, 100%);
     height: 300px;
     background: radial-gradient(ellipse at center, rgba(0,255,136,0.10) 0%, transparent 70%);
     pointer-events: none;
@@ -505,7 +510,7 @@
     position: absolute;
     top: -60px; left: 50%;
     transform: translateX(-50%);
-    width: 500px;
+    width: min(500px, 100%);
     height: 250px;
     background: radial-gradient(ellipse at center, rgba(0,255,136,0.12) 0%, transparent 70%);
     pointer-events: none;
@@ -648,9 +653,9 @@
   <!-- HERO -->
   <section class="hero">
     <p class="hero-badge">⚡ Atendimento rápido — Taubaté e região</p>
-    <h2>Seu <em>computador ou videogame</em> com problema?<br>A gente resolve.</h2>
+    <h2>Seu <em>computador, notebook ou videogame</em> com problema?<br>A gente resolve.</h2>
     <p class="subtitulo">
-      Diagnóstico gratuito, orçamento sem compromisso e conserto com garantia.
+      Diagnóstico gratuito, orçamento sem compromisso e conserto com garantia a preço justo.
       Fale agora pelo WhatsApp e receba uma resposta em minutos.
     </p>
     <div class="hero-cta-group">
@@ -686,7 +691,7 @@
   </div>
 
   <!-- SERVIÇOS -->
-  <section>
+  <section style="padding-top:0;margin-top:0;padding-bottom:0;">
     <div class="secao-titulo">
       <h3>O que a EC Tech conserta</h3>
       <p>Clique no serviço para já enviar uma mensagem direta sobre o seu problema</p>
@@ -721,7 +726,7 @@
          target="_blank" rel="noopener">
         <span class="card-servico-icone">🎮</span>
         <h4>Videogames & Consoles</h4>
-        <p>PS4, PS5, Xbox, Nintendo 3ds, Wii e Wii U. Limpeza de cooler, troca de pasta térmica, problemas de leitura de disco e manutenção geral.</p>
+        <p>PS4, PS5, Xbox, Nintendo Switch. Limpeza de cooler, troca de pasta térmica, problemas de leitura de disco e manutenção geral.</p>
         <span class="link-wpp">
           Solicitar orçamento →
         </span>
@@ -742,7 +747,7 @@
   </section>
 
   <!-- POR QUE ESCOLHER -->
-  <section>
+  <section style="padding-top:0;margin-top:0;padding-bottom:0;">
     <div class="secao-titulo">
       <h3>Por que escolher a EC Tech?</h3>
       <p>Atendimento local, transparente e com garantia</p>
@@ -816,18 +821,18 @@
   </section>
 
   <!-- AVALIAÇÕES -->
-  <section>
+  <section style="padding-top:0;margin-top:0;padding-bottom:0;">
     <div class="secao-titulo">
       <h3>O que clientes dizem</h3>
       <p>Avaliações reais de quem já usou os nossos serviços</p>
+      <div>
+         <!-- Snippet de avaliações -->
+            <div id="featurable-85e9240d-ddfa-4b25-be74-b2ad8bad02c9" data-featurable-async data-location-code="pt-BR"></div>
+            <script src="https://featurable.com/assets/bundle.js" defer charset="UTF-8"></script>
+         <!-- Fim do Snippet -->
+      </div>
     </div>
 
-    <div class="grid-avaliacoes">
-      <!-- Snippet de avaliações -->
-      <div id="featurable-85e9240d-ddfa-4b25-be74-b2ad8bad02c9" data-featurable-async data-location-code="pt-BR"></div>
-      <script src="https://featurable.com/assets/bundle.js" defer charset="UTF-8"></script>
-   <!-- Fim do Snippet -->
-    </div>
   </section>
 
   <!-- CTA FINAL -->
